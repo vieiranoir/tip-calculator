@@ -23,13 +23,21 @@
         </label>
         <p>
             <select name="serviceQual" id="serviceQual">
-                <option>30% - Excellent</option>
-                <option>20% - Very good</option>
-                <option>15% - Good</option>
-                <option>10% - Fair</option>
-                <option>05% - Poor</option>
+                <option disable selected value="0">--Choose an Option--</option>
+                <option value="0.30">30% - Excellent</option>
+                <option value="0.20">20% - Very good</option>
+                <option value="0.15">15% - Good</option>
+                <option value="0.10">10% - Fair</option>
+                <option value="0.05">05% - Poor</option>
             </select>
         </p>
+        <label for="people">
+            <p>People sharing the bill</p>
+        </label>
+        <p>
+            <input type="number" placeholder="1" name="people" id="people"> people
+        </p>
+        <button type="submit">Calculate!</button>
     </form>
   </div>
 </body>

@@ -1,17 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700|PT++Mono);
 
+/* Setting the main colors of the project*/
 :root {
     --primary-color: lightcoral;
     --secondary-color: DimGrey;
     --tertiary-color: Gainsboro;
 }
-
+/* General settings*/
 body {
     background-color:var(--primary-color);
     font-size: 15px;
     font-family: Lato, sans-serif;
 }
-
+/*Calculator main style*/
 #container {
     height: 550px;
     width: 330px;
@@ -20,7 +21,7 @@ body {
     box-shadow: 4px 3px 3px var(--tertiary-color);
     border-radius: 20px;
 }
-
+/*Title style*/
 .title {
     background: var(--tertiary-color);
     color: var(--secondary-color);
@@ -37,30 +38,31 @@ body {
     padding-left: 20px;
     padding-right: 20px;
 }
-
+/* Bill input space*/
 .formInput {
     background: white;
     width: 50px;
     padding: 5px 5px 8px 8px;
     border: 2px solid; 
 }
-
+/* Bill input space when you click on it*/
 .formInput:focus {
     border: 3px solid var(--primary-color);
     outline: none;
 }
-
+/* List of satisfaction visuals*/
 .formSelect {
     width: 180px;
     padding: 5px;
     font-size: 12px;
+    border: 2px solid;
 }
-
+/*List of satisfaction when you click on it*/
 .formSelect:focus {
     border: 3px solid var(--primary-color);
     outline: none;
 }
-
+/* Button visuals*/
 .formSubmit {
     text-transform: uppercase;
     font-weight: bold;

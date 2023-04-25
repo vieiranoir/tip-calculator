@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta name="author" content="Paulo Vieira">
     <link rel="stylesheet" href="styles.css">
     <title>Tip Calculator</title>
 </head>
 <body>
-  <div id="container">
+  <div id="container"> <!--Project main style-->
     <div>
-      <h1 class="title">Tip Calculator</h1>
+      <h1 class="title">Tip Calculator</h1> <!--Project title-->
     </div>
     <div>
-      <form class="tipsForm">
+      <form class="tipsForm"> <!--Class that will involve most of the code to CSS-->
           <label for="bill">
             <p>How much do you owe?</p>
           </label>
             <p>
-              $ <input type="number" placeholder="100" name="bill" id="bill" class="formInput">
+              $ <input type="number" placeholder="100" name="bill" id="bill" class="formInput"> <!--User must input a number, the placeholder gives an example-->
             </p>
           <label for="serviceQual">
             <p>Rate the service quality:</p>
           </label>
           <p>
-              <select name="serviceQual" id="serviceQual" class="formSelect">
+              <select name="serviceQual" id="serviceQual" class="formSelect"> <!--User will choose amongst a set of options related to service quality-->
                   <option disable selected value="0">--Choose an Option</option>
                   <option value="0.30">30% - Excellent</option>
                   <option value="0.20">20% - Very good</option>
@@ -38,9 +38,9 @@
               <p>People sharing the bill</p>
           </label>
           <p>
-              <input type="number" placeholder="1" name="people" id="people" class="formInput"> People
+              <input type="number" placeholder="1" name="people" id="people" class="formInput"> People <!--User must input a number that specifies how much people will share the bill-->
           </p>
-          <button type="submit" class="formSubmit">Calculate!</button>
+          <button type="submit" class="formSubmit">Calculate!</button> <!--Button to calculate the previous inputs-->
       </form>
     </div>
   </div>
